@@ -2,7 +2,7 @@
 
 基于 Transformer 架构的船舶自动识别系统（AIS）轨迹预测深度学习模型。
 
-![Trajectory Prediction Demo](results/ct_dma-pos-pos_vicinity-10-40-blur-True-False-2-1.0-data_size-250-270-30-72-embd_size-256-256-128-128-head-8-8-bs-32-lr-0.0006-seqlen-18-120/trajectory_samples.png)
+![Trajectory Prediction Demo](coastline_visualization/trajectory_samples.png)
 
 ## 📋 项目简介
 

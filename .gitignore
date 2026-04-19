@@ -61,3 +61,4 @@ ENV/
 !results/**/trajectory_samples.png
 !results/**/prediction_error.png
 !results/**/error_comparison.png
+!coastline_visualization/trajectory_samples.png
