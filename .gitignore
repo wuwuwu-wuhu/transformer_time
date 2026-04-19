@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch
+*.pt
+*.pth
+*.ckpt
+*.model
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 数据和模型输出（根据需要可保留 data/ 模板）
+data/*.pkl
+data/**/*.pkl
+results/
+*.log
+logs/
+
+# 环境
+.env
+venv/
+env/
+ENV/
+.conda/
+
+# 训练输出
+*.png
+*.jpg
+*.jpeg
+!coastline_visualization/coastline_overview.png
+!coastline_visualization/coastline_interactive.png
+!results/**/trajectory_samples.png
+!results/**/prediction_error.png
+!results/**/error_comparison.png
